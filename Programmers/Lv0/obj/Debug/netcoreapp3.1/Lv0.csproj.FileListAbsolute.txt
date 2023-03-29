@@ -1,0 +1,13 @@
+E:\GitHub\Algorithm-Study\Programmers\Lv0\obj\Debug\netcoreapp3.1\Lv0.csprojAssemblyReference.cache
+E:\GitHub\Algorithm-Study\Programmers\Lv0\obj\Debug\netcoreapp3.1\Lv0.AssemblyInfoInputs.cache
+E:\GitHub\Algorithm-Study\Programmers\Lv0\obj\Debug\netcoreapp3.1\Lv0.AssemblyInfo.cs
+E:\GitHub\Algorithm-Study\Programmers\Lv0\obj\Debug\netcoreapp3.1\Lv0.csproj.CoreCompileInputs.cache
+E:\GitHub\Algorithm-Study\Programmers\Lv0\bin\Debug\netcoreapp3.1\Lv0.exe
+E:\GitHub\Algorithm-Study\Programmers\Lv0\bin\Debug\netcoreapp3.1\Lv0.deps.json
+E:\GitHub\Algorithm-Study\Programmers\Lv0\bin\Debug\netcoreapp3.1\Lv0.runtimeconfig.json
+E:\GitHub\Algorithm-Study\Programmers\Lv0\bin\Debug\netcoreapp3.1\Lv0.runtimeconfig.dev.json
+E:\GitHub\Algorithm-Study\Programmers\Lv0\bin\Debug\netcoreapp3.1\Lv0.dll
+E:\GitHub\Algorithm-Study\Programmers\Lv0\bin\Debug\netcoreapp3.1\Lv0.pdb
+E:\GitHub\Algorithm-Study\Programmers\Lv0\obj\Debug\netcoreapp3.1\Lv0.dll
+E:\GitHub\Algorithm-Study\Programmers\Lv0\obj\Debug\netcoreapp3.1\Lv0.pdb
+E:\GitHub\Algorithm-Study\Programmers\Lv0\obj\Debug\netcoreapp3.1\Lv0.genruntimeconfig.cache
