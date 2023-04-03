@@ -7,8 +7,8 @@ namespace Programmers.Lv0.Solve
     {
         public static void Main(string[] args) 
         {
-            UpperLower p = new UpperLower ();
-            String answer = p.Solution ("cccCCC");
+            ConvertString p = new ConvertString ();
+            int answer = p.Solution ("allpe", "apple");
 
             Console.WriteLine (answer);
             /*foreach (int n in answer) 
