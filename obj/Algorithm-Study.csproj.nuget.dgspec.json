@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\GitHub\\Algorithm-Study\\Programmers\\Lv0\\Lv0.csproj": {}
+    "E:\\GitHub\\Algorithm-Study\\Algorithm-Study.csproj": {}
   },
   "projects": {
-    "E:\\GitHub\\Algorithm-Study\\Programmers\\Lv0\\Lv0.csproj": {
+    "E:\\GitHub\\Algorithm-Study\\Algorithm-Study.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\GitHub\\Algorithm-Study\\Programmers\\Lv0\\Lv0.csproj",
-        "projectName": "Lv0",
-        "projectPath": "E:\\GitHub\\Algorithm-Study\\Programmers\\Lv0\\Lv0.csproj",
+        "projectUniqueName": "E:\\GitHub\\Algorithm-Study\\Algorithm-Study.csproj",
+        "projectName": "Algorithm-Study",
+        "projectPath": "E:\\GitHub\\Algorithm-Study\\Algorithm-Study.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "E:\\GitHub\\Algorithm-Study\\Programmers\\Lv0\\obj\\",
+        "outputPath": "E:\\GitHub\\Algorithm-Study\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"

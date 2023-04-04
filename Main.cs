@@ -1,14 +1,14 @@
 using System;
 using Programmers.Lv0.Problem;
 
-namespace Programmers.Lv0.Solve
+namespace Solve
 {
     public class Solution
     {
         public static void Main(string[] args) 
         {
-            ConvertString p = new ConvertString ();
-            int answer = p.Solution ("allpe", "apple");
+            ChickenCoupon p = new ChickenCoupon ();
+            int answer = p.Solution (100);
 
             Console.WriteLine (answer);
             /*foreach (int n in answer) 
