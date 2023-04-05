@@ -7,8 +7,9 @@ namespace Solve
     {
         public static void Main(string[] args) 
         {
-            ChickenCoupon p = new ChickenCoupon ();
-            int answer = p.Solution (100);
+            
+            CursedThree p = new CursedThree ();
+            int answer = p.Solution (15);
 
             Console.WriteLine (answer);
             /*foreach (int n in answer) 
