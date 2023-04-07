@@ -7,9 +7,8 @@ namespace Solve
     {
         public static void Main(string[] args) 
         {
-            
-            CursedThree p = new CursedThree ();
-            int answer = p.Solution (15);
+            NumberSum p = new NumberSum ();
+            int answer = p.Solution ("aAb1B2cC34oOp");
 
             Console.WriteLine (answer);
             /*foreach (int n in answer) 
