@@ -7,8 +7,8 @@ namespace Solve
     {
         public static void Main(string[] args) 
         {
-            NumberSum p = new NumberSum ();
-            int answer = p.Solution ("aAb1B2cC34oOp");
+            Polynomial p = new Polynomial ();
+            String answer = p.Solution ("3x + 7 + x");
 
             Console.WriteLine (answer);
             /*foreach (int n in answer) 

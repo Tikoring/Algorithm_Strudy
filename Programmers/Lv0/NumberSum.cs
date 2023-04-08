@@ -16,6 +16,8 @@ namespace Programmers.Lv0.Problem
             String[] nums = myStr.Split (' ');
             for (int i = 0; i < nums.Length; i++)
                 if (!nums[i].Equals ("")) answer += Int32.Parse (nums[i]);
+
+            return answer;
         }
     }
 }
