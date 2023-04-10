@@ -7,14 +7,14 @@ namespace Solve
     {
         public static void Main(string[] args) 
         {
-            Polynomial p = new Polynomial ();
-            String answer = p.Solution ("3x + 7 + x");
+            Factorization p = new Factorization ();
+            int[] answer = p.Solution (10);
 
-            Console.WriteLine (answer);
-            /*foreach (int n in answer) 
+            //Console.WriteLine (answer);
+            foreach (int n in answer) 
             {
                 Console.WriteLine (n);
-            }*/
+            }
         }
     }
 }
