@@ -7,8 +7,9 @@ namespace Solve
     {
         public static void Main(string[] args) 
         {
-            Factorization p = new Factorization ();
-            int[] answer = p.Solution (10);
+            int[] input = {1, 2, 3, 4};
+            DimensionChange p = new DimensionChange ();
+            int[] answer = p.Solution (input, 2);
 
             //Console.WriteLine (answer);
             foreach (int n in answer) 

@@ -12,7 +12,7 @@ namespace Programmers.Lv0.Problem
         {
             int answer = 0;
             myStr = Regex.Replace (myStr, "[a-zA-Z]", "");
-            foreach (char ch in list)
+            foreach (char ch in myStr)
             {
                 answer += (int) ch - '0';
             }
