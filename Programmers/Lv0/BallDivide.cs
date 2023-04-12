@@ -7,7 +7,7 @@ namespace Programmers.Lv0.Problem
 {
     public class BallDivide
     {
-        public long solution(int balls, int share) 
+        public long Solution(int balls, int share) 
         {
             long answer = 1;
             for (int i = 1; i <= share; i++)

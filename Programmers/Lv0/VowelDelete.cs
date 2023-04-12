@@ -8,7 +8,7 @@ namespace Programmers.Lv0.Problem
 {
     public class VowelDelete
     {
-        public string solution(String myStr) 
+        public string Solution(String myStr) 
         {
             String answer = "";
             answer = Regex.Replace (myStr, "[aeiou]", "");
