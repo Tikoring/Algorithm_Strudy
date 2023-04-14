@@ -7,8 +7,8 @@ namespace Solve
     {
         public static void Main(string[] args) 
         {
-            int[] input = {1, 2, 3, 4};
-            EmergencyOrdered p = new EmergencyOrdered ();
+            int[] input = {1, 2, 3, 4, 5};
+            ReverseArray p = new ReverseArray ();
             int[] answer = p.Solution (input);
 
             //Console.WriteLine (answer);
