@@ -7,15 +7,15 @@ namespace Solve
     {
         public static void Main(string[] args) 
         {
-            int[] input = {1, 2, 3, 4};
-            EmergencyOrdered p = new EmergencyOrdered ();
-            int[] answer = p.Solution (input);
+            int[] input = {1, 2, 3, 4, 1};
+            FractionAdd p = new FractionAdd ();
+            int[] answer = p.Solution (1, 2, 3, 4);
 
-            //Console.WriteLine (answer);
-            foreach (int n in answer) 
+            Console.WriteLine (answer);
+            /*foreach (int n in answer) 
             {
                 Console.WriteLine (n);
-            }
+            }*/
         }
     }
 }
