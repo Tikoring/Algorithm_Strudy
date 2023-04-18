@@ -8,10 +8,12 @@ namespace Solve
     {
         public static void Main(string[] args) 
         {
-            String[] input1 = {"OSO","OOO","OXO","OOO"};
-            String[] input2 = {"E 2","S 3","W 1"};
-            ParkWalking p = new ParkWalking ();
-            int[] answer = p.Solution (input1, input2);
+            String[] input1 = {"Z 3", "D 5"};
+            String[] input2 = {"2019.01.01 D", "2019.11.15 Z", "2019.08.02 D", "2019.07.01 D", "2018.12.28 Z"};
+            String[] input3 = {"i", "want", "to", "drink", "water"};
+            int[] input = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+            PersonalEXDate p = new PersonalEXDate ();
+            int[] answer = p.Solution ("2020.01.01", input1, input2);
 
             //Console.WriteLine (answer);
             foreach (int n in answer) 
