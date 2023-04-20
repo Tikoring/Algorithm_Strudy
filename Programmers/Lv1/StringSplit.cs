@@ -10,32 +10,22 @@ namespace Programmers.Lv1.Problem
         public int Solution(String s) 
         {
             int answer = 0;
-            HashSet<char> now = new HashSet<char> ();
-            Dictionary<char, int> counter = new Dictionary<char, int> ();
-            foreach (char c in s)
+            int[] counter = {0, 0};
+            char first = s[0];
+            for (int i = 0; i < s.Length; i++)
             {
-                now.Add (c);
-                if (counter.ContainsKey (c)) counter[c] += 1;
-                else counter.Add (c, 1);
-                if (now.Count >= 2)
+                if (first == s[i]) counter[0] += 1;
+                else counter[1] += 1;
+                if (counter[0] == counter[1]) 
                 {
-                    bool comp = false;
-                    int num = 0;
-                    foreach (char n in now)
-                    {
-                        if (num == 0) num = counter[n];
-                        else if (num == counter[n]) comp = true;
-                        else comp = false;
-                    }
-                    if (comp)
-                    {
-                        now.Clear ();
-                        counter.Clear ();
-                        answer += 1;
-                    }
+                    answer += 1;
+                    counter[0] = 0;
+                    counter[1] = 0;
+                    if (i != s.Length - 1) first = s[i + 1];
                 }
             }
-            if (now.Count > 0) answer += 1;
+            if (counter[0] != 0) answer += 1;
+
             return answer;
         }
     }

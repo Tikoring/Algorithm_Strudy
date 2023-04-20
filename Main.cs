@@ -11,9 +11,9 @@ namespace Solve
             String[] input1 = {"Z 3", "D 5"};
             String[] input2 = {"2019.01.01 D", "2019.11.15 Z", "2019.08.02 D", "2019.07.01 D", "2018.12.28 Z"};
             String[] input3 = {"i", "want", "to", "drink", "water"};
-            int[] input = {1, 2, 3, 4, 5, 6, 7, 8, 9};
-            StringSplit p = new StringSplit ();
-            int answer = p.Solution ("abracadabra");
+            int[] input = {2, 1, 1, 2, 3, 1, 2, 3, 1};
+            HamburgerMaking p = new HamburgerMaking ();
+            int answer = p.Solution (input);
 
             Console.WriteLine (answer);
             /*foreach (int n in answer) 
