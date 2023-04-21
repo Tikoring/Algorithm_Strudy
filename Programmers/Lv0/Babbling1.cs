@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace Programmers.Lv0.Problem
 {
-    public class Babbling
+    public class Babbling1
     {
         public int Solution(string[] babbling) 
         {
