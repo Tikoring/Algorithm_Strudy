@@ -8,12 +8,12 @@ namespace Solve
     {
         public static void Main(string[] args) 
         {
-            String[] input1 = {"ayaye", "uuu", "yeye", "yemawoo", "ayaayaa"};
-            String[] input2 = {"2019.01.01 D", "2019.11.15 Z", "2019.08.02 D", "2019.07.01 D", "2018.12.28 Z"};
+            String[] input1 = {"con", "ryan"};
+            String[] input2 = {"ryan con", "ryan con", "ryan con", "ryan con"};
             String[] input3 = {"i", "want", "to", "drink", "water"};
             int[] input = {2, 1, 1, 2, 3, 1, 2, 3, 1};
-            NumberPair p = new NumberPair ();
-            String answer = p.Solution ("100", "123450");
+            ReportFeedback p = new ReportFeedback ();
+            int[] answer = p.Solution (input1, input2, 3);
 
             Console.WriteLine (answer);
             /*foreach (int n in answer) 
