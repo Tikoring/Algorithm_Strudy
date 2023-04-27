@@ -10,10 +10,10 @@ namespace Solve
         {
             int[] input1 = {1, 5, 2, 6, 3, 7, 4};
             int[,] input2 = {{2, 5, 3}, {4, 4, 1}, {1, 7, 3}};
-            String[] input3 = {"i", "want", "to", "drink", "water"};
+            String[] input3 = {"sun", "bed", "car"};
             int[] input = {1,2,7,6,4};
-            TrioGetPrimeNum p = new TrioGetPrimeNum ();
-            int answer = p.Solution (input);
+            CustomStringSorting p = new CustomStringSorting ();
+            String[] answer = p.Solution (input3, 1);
 
             Console.WriteLine (answer);
             /*foreach (int n in answer) 
