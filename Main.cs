@@ -9,15 +9,15 @@ namespace Solve
     {
         public static void Main(string[] args) 
         {
-            int[] input1 = {1, 5, 2, 6, 3, 7, 4};
-            int[,] input2 = {{2, 5, 3}, {4, 4, 1}, {1, 7, 3}};
-            String[] input3 = {"sun", "bed", "car"};
+            int[] input1 = {1, 0, 1};
+            int[] input2 = {};
+            String[] input3 = {"diamond", "diamond", "diamond", "iron", "iron", "diamond", "iron", "stone"};
             int[,] input = {{4, 8}, {4, 5}, {10, 14}, {11, 13}, {5, 12}, {3, 7}, {1, 4}};
-            CirclesIntervalIntPair p = new CirclesIntervalIntPair ();
-            long answer = p.Solution (1, 3);
+            Mining p = new Mining ();
+            int answer = p.Solution (input1, input3);
 
             Console.WriteLine (answer);
-            /*foreach (int n in answer) 
+            /*foreach (String n in answer) 
             {
                 Console.WriteLine (n);
             }*/

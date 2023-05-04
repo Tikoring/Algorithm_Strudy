@@ -10,14 +10,23 @@ namespace Programmers.Lv2.Problem
         public long Solution(int r1, int r2) 
         {
             long answer = 0;
-            for (int i = -r2; i < r2; i++)
+            for (long i = 1; i <= r2; i++)
             {
-                for (int j = -r2; j < r2; j++)
+                long s = 0;
+                long e = 0;
+                if (i < r1)
                 {
-                    long l = i * i + j * j;
-                    if (l >= r1 * r1 && l <= r2 * r2) answer++;
+                    s = (long) Math.Ceiling (Math.Sqrt (Math.Pow (r1, 2) - i * i));
+                    e = (long) Math.Floor (Math.Sqrt (Math.Pow (r2, 2) - i * i));
                 }
+                else 
+                {
+                    s = 0;
+                    e = (long) Math.Floor (Math.Sqrt (Math.Pow (r2, 2) - i * i));
+                }
+                answer += e - s + 1;
             }
+            answer *= 4;
             return answer;
         }
     }
