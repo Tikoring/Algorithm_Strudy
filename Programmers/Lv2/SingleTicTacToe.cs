@@ -13,6 +13,7 @@ namespace Programmers.Lv2.Problem
             int answer = 0;
             int[] counter = {0, 0};
             int[] finish = {0, 0};
+            int odd = 0;
             for (int i = 0; i < 3; i++)
             {
                 for (int j = 0; j < 3; j++)
