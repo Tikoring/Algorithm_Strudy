@@ -11,10 +11,10 @@ namespace Solve
         {
             int[] input1 = {1, 0, 1};
             int[] input2 = {};
-            String[,] input3 = {{"15:00", "17:55"}, {"16:40", "18:20"}, {"14:20", "15:20"}};
+            String[] input3 = {"X591X","X1X5X","X231X", "1XXX1"};
             int[,] input = {{7, 7}, {2, 7}, {7, 3}};
-            HotelHIring p = new HotelHIring ();
-            int answer = p.Solution (input3);
+            IslandTravel p = new IslandTravel ();
+            int[] answer = p.Solution (input3);
 
             Console.WriteLine (answer);
             /*foreach (String n in answer) 
