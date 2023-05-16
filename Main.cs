@@ -9,12 +9,12 @@ namespace Solve
     {
         public static void Main(string[] args) 
         {
-            int[] input1 = {9, 1, 5, 3, 6, 2};
+            int[] input1 = {100, 100, 200, 300, 400};
             int[] input2 = {};
             String[] input3 = {"X591X","X1X5X","X231X", "1XXX1"};
             int[,] input = {{7, 7}, {2, 7}, {7, 3}};
-            NumTrans p = new NumTrans ();
-            int answer = p.Solution (10, 40, 5);
+            SeesawPair p = new SeesawPair ();
+            long answer = p.Solution (input1);
 
             Console.WriteLine (answer);
             /*foreach (String n in answer) 
