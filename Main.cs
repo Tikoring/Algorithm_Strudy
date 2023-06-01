@@ -9,12 +9,12 @@ namespace Solve
     {
         public static void Main(string[] args) 
         {
-            int[] input1 = {7000, 9000};
+            int[] input1 = {4, 2, 4, 5, 3, 3, 1};
             int[] input2 = {0};
             String[] input3 = {"X591X","X1X5X","X231X", "1XXX1"};
             int[,] input = {{2,2,6}, {1,5,10}, {4,2,9}, {3,8,3}};
-            TableHashing p = new TableHashing ();
-            int answer = p.Solution (input, 2, 2, 3);
+            DefenceGame p = new DefenceGame ();
+            int answer = p.Solution (7, 3, input1);
 
             Console.WriteLine (answer);
             /*foreach (String n in answer) 
