@@ -13,8 +13,8 @@ namespace Solve
             int[] input2 = {0};
             String[] input3 = {"X591X","X1X5X","X231X", "1XXX1"};
             int[,] input = {{2,2,6}, {1,5,10}, {4,2,9}, {3,8,3}};
-            DefenceGame p = new DefenceGame ();
-            int answer = p.Solution (7, 3, input1);
+            PointingTool p = new PointingTool ();
+            long answer = p.Solution (2, 4);
 
             Console.WriteLine (answer);
             /*foreach (String n in answer) 
