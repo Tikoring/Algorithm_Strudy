@@ -9,12 +9,12 @@ namespace Solve
     {
         public static void Main(string[] args) 
         {
-            int[] input1 = {1, 3, 2, 5, 4, 5, 2, 3};
-            int[] input2 = {0};
+            int[] input1 = {10, 17};
+            int[] input2 = {5, 20};
             String[] input3 = {"X591X","X1X5X","X231X", "1XXX1"};
             int[,] input = {{2,2,6}, {1,5,10}, {4,2,9}, {3,8,3}};
-            MandarinChoice p = new MandarinChoice ();
-            long answer = p.Solution (4, input1);
+            CardDividing p = new CardDividing ();
+            int answer = p.Solution (input1, input2);
 
             Console.WriteLine (answer);
             /*foreach (String n in answer) 
