@@ -13,8 +13,8 @@ namespace Solve
             int[] input2 = {4, 6, 5, 1};
             String[] input3 = {"chicken", "apple", "apple", "banana", "rice", "apple", "pork", "banana", "pork", "rice", "pot", "banana", "apple", "banana"};
             int[,] input = {{0, 0}, {0, -1}, {2, -3}, {3, -3}};
-            Archery p = new Archery ();
-            int[] answer = p.Solution (5, input1);
+            KfindPrime p = new KfindPrime ();
+            int answer = p.Solution (110011, 10);
 
             Console.WriteLine (answer);
             /*foreach (String n in answer) 

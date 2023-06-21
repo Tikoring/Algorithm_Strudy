@@ -7,7 +7,7 @@ namespace Programmers.Lv2.Problem
 {
     public class ParkingCharge
     {
-        public int[] solution(int[] fees, String[] records) 
+        public int[] Solution(int[] fees, String[] records) 
         {
             List<int> answer = new List<int> ();
             int end = TranslateTime ("23:59");
